@@ -144,6 +144,11 @@ html, body {
   display: flex;
   justify-content: center;
 }
+.green-lines {
+  background: #71F138;
+  border: 1px solid #71F138;
+  width: 50%;
+}
 .green-line {
   background: #71F138;
   border: 1px solid #71F138;
@@ -368,4 +373,25 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+@media (max-width: 1200px) {
+  .header-section {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+  .punchline-section {
+    margin-top: 35px;
+  }
+  .team-img-wrapper {
+    padding-top: 100px;
+    display: block;
+    display: grid;
+  }
+  .green-lines {
+    margin-top: 230px;
+  }
+  .header-bottom {
+    display: block;
+  }
 }

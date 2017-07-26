@@ -35,7 +35,7 @@
               ...as it should be
             </div>
           </div>
-          <div class="testimonial-section">
+          <div class="testimonial-section" id="customer">
             <div class="testimonial-text">
               What are our customers saying
             </div>
@@ -64,13 +64,13 @@
             </div>
           </div>
         </div>
-        <div class="team-img-wrapper">
+        <div class="team-img-wrapper" id="switch-img">
           <img src="img/team.png" class="team-img"/>
         </div>
       </div>
     </div>
     <div class="line-wrapper">
-      <div class="green-line"></div>
+      <div class="green-lines"></div>
     </div>
     <div class="section" id="aboutus">
       <span class="section-heading">About Us</span>
@@ -295,4 +295,14 @@ function scrollFunc() {
     document.getElementById("header-top").style['box-shadow'] = 'none';
   }
 }
+function change(){
+  if ( window.innerWidth <= 1200){
+       var strDiv1Content = document.getElementById('customer').innerHTML;
+       var strDiv2Content = document.getElementById('switch-img').innerHTML;
+
+      document.getElementById('customer').innerHTML = strDiv2Content;
+      document.getElementById('switch-img').innerHTML = strDiv1Content;
+    }
+}
+change();
 </script>
