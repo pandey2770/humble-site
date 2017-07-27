@@ -372,6 +372,7 @@ html, body {
   flex-direction: column;
   align-items: flex-start;
 }
+
 @media (max-width: 1200px) {
   .header-section {
     height: 75%;
