@@ -64,7 +64,7 @@ html, body {
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
-  margin-top: 150px;
+  margin-top: 60px;
 }
 .header-bottom-text {
   width: 60%;
@@ -103,15 +103,18 @@ html, body {
   display: inline-block;
 }
 .punchline {
+  margin-left: 100px;
   color: #066D99;
   font-size: 50px;
+  margin-top: 100px;
+
 }
 .mantra {
   margin-top: 15px;
   color: white;
   font-size: 25px;
   color: #71F138;
-  text-align: right;
+  margin-left: 400px;
 }
 .section {
   margin-top: 0px;
@@ -143,11 +146,6 @@ html, body {
   width: 100%;
   display: flex;
   justify-content: center;
-}
-.green-lines {
-  background: #71F138;
-  border: 1px solid #71F138;
-  width: 50%;
 }
 .green-line {
   background: #71F138;
@@ -376,7 +374,7 @@ html, body {
 }
 @media (max-width: 1200px) {
   .header-section {
-    height: 60%;
+    height: 75%;
     display: flex;
     flex-direction: column;
   }
@@ -392,6 +390,13 @@ html, body {
     margin-top: 230px;
   }
   .header-bottom {
-    display: block;
+    display: flex;
+    flex-direction: column-reverse;
   }
+  .header-bottom-text {
+    width: 85%;
+  }
+  .team-img-wrapper {
+    justify-content: flex-end;
+    padding-top: 50px;
 }
