@@ -375,9 +375,12 @@ html, body {
 
 @media (max-width: 1200px) {
   .header-section {
-    height: 75%;
+    height: 60%;
     display: flex;
     flex-direction: column;
+  }
+  .line{
+    margin-top: 400px;
   }
   .punchline-section {
     margin-top: 35px;
@@ -392,6 +395,7 @@ html, body {
   }
   .header-bottom {
     display: flex;
+    margin-bottom: -300px;
     flex-direction: column-reverse;
   }
   .header-bottom-text {
@@ -400,4 +404,5 @@ html, body {
   .team-img-wrapper {
     justify-content: flex-end;
     padding-top: 50px;
+}
 }
