@@ -17,6 +17,13 @@ html, body {
   flex-direction: column;
   height: 100%;
 }
+.mantra2 {
+  margin-top: 15px;
+  color: white;
+  font-size: 17px;
+  color: #71F138;
+  margin-left: 250px;
+}
 .logo {
   height: 35px;
   margin: 20px 20px 20px 0;
@@ -128,11 +135,35 @@ html, body {
   font-size: 18px;
   text-align: center;
   width: 65%;
+  width: 40%;
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section2-text {
+  font-size: 18px;
+  text-align: center;
+  width: 65%;
+  width: 40%;
+  font-size: 18px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .section-heading {
   margin: 75px 0;
   font-size: 30px;
   text-align: center;
+  font-weight: 300;
+  color: #066D99;
+}
+.section2-heading {
+  margin: 75px 0;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 300;
   color: #066D99;
 }
 .footer-section {
@@ -149,6 +180,11 @@ html, body {
   display: flex;
   justify-content: center;
 }
+.img-approach {
+  margin-top: 20px;
+  width: 50%;
+  height: 50%;
+}
 .green-line {
   background: #71F138;
   border: 1px solid #71F138;
@@ -157,6 +193,11 @@ html, body {
 .section-body {
   display: flex;
   margin-bottom: 100px;
+  justify-content: space-around;
+}
+.section2-body {
+  margin-bottom: 25px;
+  display: flex;
   justify-content: space-around;
 }
 .section-content {
@@ -168,14 +209,7 @@ html, body {
   justify-content: center;
   align-items: center;
 }
-.section-text {
-  width: 40%;
-  font-size: 18px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .service-areas {
   text-align: left;
   list-style: url('../img/limark.svg');
