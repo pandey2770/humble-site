@@ -180,11 +180,6 @@ html, body {
   display: flex;
   justify-content: center;
 }
-.img-approach {
-  margin-top: 20px;
-  width: 50%;
-  height: 50%;
-}
 .green-line {
   background: #71F138;
   border: 1px solid #71F138;
